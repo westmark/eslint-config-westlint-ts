@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-westlint-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,14 +16,13 @@
     "eslint-config-react-app": "5.1.0",
     "eslint-plugin-flowtype": "4.5.3",
     "eslint-plugin-import": "2.19.1",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.18.3",
     "eslint-plugin-react-hooks": "2.3.0",
     "prettier": "1.19.1"
   },
   "eslintConfig": {
     "extends": "./index.js"
   },
-  "devDependencies": {
-    "eslint-plugin-react": "^7.18.3"
-  }
+  "devDependencies": {}
 }
