@@ -1,25 +1,20 @@
 {
   "name": "eslint-config-westlint-ts",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Fredrik Westmark",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.15.0",
-    "@typescript-eslint/parser": "2.15.0",
-    "eslint": "6.0.1",
-    "eslint-config-prettier": "6.9.0",
-    "eslint-config-react-app": "5.1.0",
-    "eslint-plugin-flowtype": "4.5.3",
-    "eslint-plugin-import": "2.19.1",
+    "@typescript-eslint/eslint-plugin": "2.26.0",
+    "@typescript-eslint/parser": "2.26.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-config-react-app": "5.2.1",
     "eslint-plugin-prettier": "3.1.2",
-    "eslint-plugin-react": "7.18.3",
-    "eslint-plugin-react-hooks": "2.3.0",
-    "prettier": "1.19.1"
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "3.0.0",
+    "prettier": "2.0.2"
   },
   "eslintConfig": {
     "extends": "./index.js"

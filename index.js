@@ -3,15 +3,20 @@ const prettier = require('./prettier');
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    jsx: true,
+    useJSXTextNode: true,
     sourceType: 'module',
   },
   extends: [
-    'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
     'prettier/@typescript-eslint',
     'react-app',
   ],
-  plugins: ['@typescript-eslint', 'prettier', 'react-hooks'],
+  plugins: ['react', '@typescript-eslint', 'prettier', 'react-hooks'],
   rules: {
     'prettier/prettier': ['error', prettier],
     // React
