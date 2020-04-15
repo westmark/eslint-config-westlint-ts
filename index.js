@@ -37,16 +37,7 @@ module.exports = {
       },
     ],
 
-    'comma-dangle': [
-      'error',
-      {
-        arrays: 'always-multiline',
-        objects: 'always-multiline',
-        imports: 'always-multiline',
-        exports: 'never',
-        functions: 'never',
-      },
-    ],
+    'comma-dangle': 0,
 
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
